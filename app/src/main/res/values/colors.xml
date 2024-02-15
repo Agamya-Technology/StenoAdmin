@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Blue Colors -->
+    <color name="Blue">#2196F3</color>
+    <color name="LightBlue">#03A9F4</color>
+    <color name="DarkBlue">#1565C0</color>
+
+    <!-- Red Colors -->
+    <color name="Red">#FF0000</color>
+    <color name="LightRed">#FFCDD2</color>
+    <color name="DarkRed">#D32F2F</color>
+
+    <!-- Green Colors -->
+    <color name="Green">#4CAF50</color>
+    <color name="LightGreen">#C8E6C9</color>
+    <color name="DarkGreen">#388E3C</color>
+
+    <!-- Yellow Colors -->
+    <color name="Yellow">#FFEB3B</color>
+    <color name="LightYellow">#FFF9C4</color>
+    <color name="DarkYellow">#FBC02D</color>
+
+    <!-- Purple Colors -->
+    <color name="Purple">#9C27B0</color>
+    <color name="LightPurple">#E1BEE7</color>
+    <color name="DarkPurple">#7B1FA2</color>
+
+    <!-- Orange Colors -->
+    <color name="Orange">#FF9800</color>
+    <color name="LightOrange">#FFE0B2</color>
+    <color name="DarkOrange">#F57C00</color>
+
+    <!-- Gray Colors -->
+    <color name="Gray">#9E9E9E</color>
+    <color name="LightGray">#F5F5F5</color>
+    <color name="DarkGray">#616161</color>
+
+    <!-- Gold Colors -->
+    <color name="Gold">#FFD700</color>
+    <color name="LightGold">#FFECB3</color>
+    <color name="DarkGold">#FFA000</color>
+
+    <!-- Silver Colors -->
+    <color name="Silver">#C0C0C0</color>
+    <color name="LightSilver">#E0E0E0</color>
+    <color name="DarkSilver">#A9A9A9</color>
+
+    <!-- Bronze Colors -->
+    <color name="Bronze">#CD7F32</color>
+    <color name="LightBronze">#D2B48C</color>
+    <color name="DarkBronze">#8B4513</color>
+
+    <!-- Iron Colors -->
+    <color name="Iron">#43464B</color>
+    <color name="LightIron">#6E7175</color>
+    <color name="DarkIron">#26282C</color>
+
+    <!-- Diamond Colors -->
+    <color name="Diamond">#B9F2FF</color>
+    <color name="LightDiamond">#E6F7FF</color>
+    <color name="DarkDiamond">#99E6FF</color>
+
+    <!-- Copper Colors -->
+    <color name="Copper">#B87333</color>
+    <color name="LightCopper">#CD853F</color>
+    <color name="DarkCopper">#8B4513</color>
+
+    <!-- Titanium Colors -->
+    <color name="Titanium">#737373</color>
+    <color name="LightTitanium">#999999</color>
+    <color name="DarkTitanium">#595959</color>
+
+    <!-- Ruby Colors -->
+    <color name="Ruby">#E0115F</color>
+    <color name="LightRuby">#FF5C8D</color>
+    <color name="DarkRuby">#B0125B</color>
+
+    <!-- Sapphire Colors -->
+    <color name="Sapphire">#0F52BA</color>
+    <color name="LightSapphire">#4169E1</color>
+    <color name="DarkSapphire">#001F3F</color>
+
+    <!-- Emerald Colors -->
+    <color name="Emerald">#50C878</color>
+    <color name="LightEmerald">#64D867</color>
+    <color name="DarkEmerald">#008000</color>
+</resources>
