@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">StenoAdmin</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="first">Name :</string>
+    <string name="second">Email :</string>
+    <string name="third">Phone :</string>
+    <string name="fourth">District :</string>
+    <string name="fifth">State :</string>
 </resources>
