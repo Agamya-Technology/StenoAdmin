@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateCourse.UpdateCourse"
+    android:background="@color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="?actionBarSize">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:navigationIcon="@drawable/backwardarrow"
+            app:title="Update Course"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbarlayout">
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp">
+
+
+            <LinearLayout
+                android:id="@+id/linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fill_all_details_to_update"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    android:textStyle=""/>
+
+                <LinearLayout
+                    android:id="@+id/linearlayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp">
+
+                    <EditText
+                        android:id="@+id/courseid"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/roundedcorner"
+                        android:hint="@string/course_id"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        tools:ignore="TouchTargetSizeCheck"
+                        android:autofillHints="" />
+
+                    <EditText
+                        android:id="@+id/coursename"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:autofillHints=""
+                        android:background="@drawable/roundedcorner"
+                        android:hint="@string/course_name"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/course_time_in_hours"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/number_of_test"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/questions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/number_of_questions"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/author"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/author"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/price"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    android:padding="10dp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/description"
+                    android:inputType="text"
+                  android:minHeight="100dp"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/review"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/what_is_the_user_learn_from_this_course"
+                    android:inputType="text"
+                    android:minHeight="150dp"
+                    android:gravity="top"
+                    android:padding="10dp"
+                    android:autofillHints="" />
+
+                <EditText
+                    android:id="@+id/summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:hint="@string/summary_or_context_of_course"
+                    android:inputType="text"
+                    android:minHeight="200dp"
+                    android:padding="10dp"
+                    android:gravity="top"
+                    android:layout_marginBottom="20dp"
+                    android:autofillHints="" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
