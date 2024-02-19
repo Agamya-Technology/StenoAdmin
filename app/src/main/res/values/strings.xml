@@ -1,14 +1,31 @@
 <resources>
     <string name="app_name">StenoAdmin</string>
+
     <string name="fill_all_details">Fill All Details</string>
-    <string name="course_id">Course Id</string>
-    <string name="course_name">course Name</string>
-    <string name="course_time_in_hours">Course Time in Hours</string>
     <string name="numer_of_tests">Numer of Tests</string>
     <string name="number_of_question">Number of Question</string>
-    <string name="price">price</string>
-    <string name="author">Author</string>
-    <string name="description">Description</string>
     <string name="what_is_user_learn_from_this_course">what is user learn from this course</string>
+
+
+    <string name="course_id">Course Id</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_time_in_hours">Course Time in Hours</string>
+    <string name="number_of_test">Number of Test</string>
+    <string name="number_of_questions">Number of Questions</string>
+    <string name="author">Author</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="what_is_the_user_learn_from_this_course">What is the user learn from this course</string>
     <string name="summary_or_context_of_course">Summary or Context of Course</string>
+    <string name="fill_all_details_to_update">Fill all details to update</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="district">District</string>
+    <string name="state">State</string>
+    <string name="first">Name :</string>
+    <string name="second">Email :</string>
+    <string name="third">Phone :</string>
+    <string name="fourth">District :</string>
+    <string name="fifth">State :</string>
 </resources>
