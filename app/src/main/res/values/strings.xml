@@ -2,6 +2,12 @@
     <string name="app_name">StenoAdmin</string>
     <string name="options">options</string>
 
+    <string name="fill_all_details">Fill All Details</string>
+    <string name="numer_of_tests">Numer of Tests</string>
+    <string name="number_of_question">Number of Question</string>
+    <string name="what_is_user_learn_from_this_course">what is user learn from this course</string>
+
+
     <string name="course_id">Course Id</string>
     <string name="course_name">Course Name</string>
     <string name="course_time_in_hours">Course Time in Hours</string>
