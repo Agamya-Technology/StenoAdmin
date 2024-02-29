@@ -29,5 +29,11 @@
     <string name="third">Phone :</string>
     <string name="fourth">District :</string>
     <string name="fifth">State :</string>
+    <string name="select_video">Select Video</string>
+    <string name="course_idv">Course Id</string>
+    <string name="topics_cover_in_lecture">Topics Cover in Lecture</string>
+    <string name="lecture_1_mp4">Lecture 1.mp4</string>
+    <string name="select_vide">Select Video</string>
+    <string name="upload_video">Upload Video</string>
 
 </resources>
