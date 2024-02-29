@@ -29,5 +29,11 @@
     <string name="third">Phone :</string>
     <string name="fourth">District :</string>
     <string name="fifth">State :</string>
+    <string name="select_notes">Select Notes</string>
+    <string name="select_notess">Select notes</string>
+    <string name="upload_notes">Upload Notes</string>
+    <string name="first_notes_pdf">First notes.pdf</string>
+    <string name="topics_in_notes">Topics in Notes</string>
+    <string name="course_ids">Course Id</string>
 
 </resources>
