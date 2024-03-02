@@ -35,5 +35,10 @@
     <string name="first_notes_pdf">First notes.pdf</string>
     <string name="topics_in_notes">Topics in Notes</string>
     <string name="course_ids">Course Id</string>
+    <string name="files_mp4_pdf">Files.mp4/pdf</string>
+    <string name="_25_3_mb">25.3 mb</string>
+    <string name="_60_done">60% done</string>
+    <string name="_976_kb_s">976 kb/s</string>
+    <string name="uploads">Uploads</string>
 
 </resources>
