@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/upc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Gray"
+            app:navigationIcon="@drawable/baseline_arrow_back_24"
+            app:title="Update Course"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <TextView
+        android:id="@+id/sv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/appbar"
+        android:text="@string/select_video"
+        android:layout_marginTop="28sp"
+        android:layout_marginStart="30sp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/courseid"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/roundedcorner"
+        android:layout_below="@+id/sv"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="220dp"
+        android:backgroundTint="@color/Gray"
+        android:text="@string/course_idv"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:paddingTop="5sp"
+        tools:ignore="RtlSymmetry">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/roundedcorner"
+        android:layout_below="@+id/courseid"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="@color/Gray"
+        android:text="@string/topics_cover_in_lecture"
+        android:padding="10dp"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/lecture"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/Gray"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/lecture_1_mp4"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <Button
+
+        android:id="@+id/selectvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lecture"
+        android:padding="10dp"
+        android:background="@drawable/roundedcorner"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/white"
+        android:text="@string/select_vide"
+        android:gravity="center"
+        android:textSize="20sp">
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/upvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectvideo"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedcorner"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/upload_video">
+
+
+    </Button>
+
+</RelativeLayout>
